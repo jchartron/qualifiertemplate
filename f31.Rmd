@@ -1,0 +1,247 @@
+---
+output: 
+  bookdown::pdf_document2:
+    toc: false
+    number_sections: true
+    citation_package: natbib
+    template: default.tex
+    latex_engine: pdflatex
+    keep_tex: true
+    includes:
+      in_header: preamble.tex 
+fontsize: 11pt
+papersize: letter
+microtypeoptions: protrusion=true,expansion, final, tracking=true, kerning=true, spacing=true, factor=1100, stretch=10, shrink=10
+geometry: margin=0.5in, includeheadfoot, headsep=0in, headheight=0in, footskip=0.3in
+subparagraph: yes
+fontfamily: helvet
+linestretch: 1
+graphics: yes
+bibliography: bibliography.bib
+biblio-style: "unsrt"
+---
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- This is a title page, edit as necessary -->
+```{=latex}
+\thispagestyle{empty}
+\vspace*{3in}
+{\center 
+{\Large\textbf{A nice title for a proposal}}\\
+\vspace{1in}
+{\large Your name here
+
+Whatever cover text you like}
+
+}
+```
+
+
+\clearpage<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+```{=latex}
+\setcounter{page}{1}
+{\Large\textbf{PROJECT SUMMARY}}
+```
+
+The project summary is a succinct and accurate description of the proposed work and should be
+able to stand on its own (separate from the application). This section should be informative to
+other persons working in the same or related fields and understandable to a scientifically literate
+reader. Avoid both descriptions of past accomplishments and the use of the first person. Please
+be concise.
+
+This section is limited to **30 lines of text**, and must follow the required font and margin
+specifications.
+
+State the application's broad, long-term objectives and specific aims, making reference to the
+health relatedness of the project (i.e., relevance to the mission of the agency). Describe the
+research design and methods for achieving the stated goals. Be sure that the project summary
+reflects the key focus of the proposed project so that the application can be appropriately
+categorized.
+
+\vspace{1in}
+
+***FYI: NIH Formatting instruction***
+
+Text in your attachments must follow these minimum requirements:
+
+Font size:  Must be 11 points or larger. Smaller text in figures, graphs, diagrams and charts is acceptable, as long as it is legible when the page is viewed at 100%.
+Some PDF conversion software reduces font size. It is important to confirm that the final PDF document complies with the font requirements.
+
+Type density:  Must be no more than 15 characters per linear inch (including characters and spaces).
+
+Line spacing: Must be no more than six lines per vertical inch.
+
+Text color: No restriction. Though not required, black or other high-contrast text colors are recommended since they print well and are legible to the largest audience.
+We recommended the following fonts, although other fonts (both serif and non-serif) are acceptable if they meet the above requirements.
+
+- Arial
+- Georgia
+- Helvetica <- **Used here**
+- Palatino Linotype
+
+Legibility is of paramount importance. Applications that include PDF attachments that do not conform to the minimum requirements listed above may be withdrawn from consideration.
+
+
+
+\clearpage <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+```{=latex}
+{\Large\textbf{PROJECT NARRATIVE}}
+```
+
+Describe the relevance of this research to public health in, at most, **three sentences**. For example,
+NIH applicants can describe how, in the short or long term, the research would contribute to
+fundamental knowledge about the nature and behavior of living systems and/or the application
+of that knowledge to enhance health, lengthen life, and reduce illness and disability. If the
+application is funded, this public health relevance statement will be combined with the project
+summary (above) and will become public information.
+
+\clearpage <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+```{=latex}
+{\Large\textbf{SPECIFIC AIMS}}
+```
+
+State concisely the goals of the proposed research and summarize the expected outcome(s),
+including the impact that the results of the proposed research will have on the research field(s)
+involved.
+
+List succinctly the specific objectives of the research proposed (e.g., to test a stated hypothesis,
+create a novel design, solve a specific problem, challenge an existing paradigm or clinical practice,
+address a critical barrier to progress in the field, or develop new technology).
+
+
+**One page**
+
+
+***Example format***
+
+*The specific aims page is arguably the most important page of your proposal*
+
+Begin with one or two paragraphs providing context and significance
+Give a paragraph describing broadly what you are going to do, and transition into your aims as a breakdown of your work.
+
+**Aim 1**: Titles should be a clear statement of what you want to do. *You may follow with a brief paragraph of summarizing the aim*
+
+**Aim 2**: Titles should be a clear statement of what you want to do. *You may follow with a brief paragraph of summarizing the aim*
+
+**Aim 3**: Titles should be a clear statement of what you want to do. *You may follow with a brief paragraph of summarizing the aim*
+
+If there is space, it is often good to provide a summary pargraph of how your aims, if successful, will solve the challengse you outlined in the openining.
+
+
+\clearpage <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+```{=latex}
+{\Large\textbf{RESEARCH STRATEGY}}
+```
+
+Note for Applicants with Multiple Specific Aims: you may address the Significance and
+Approach either for each Specific Aim individually or for all of the Specific Aims collectively. 
+
+1. Significance
+  - Explain the importance of the problem or critical barrier to progress that the proposed project addresses.
+  - Explain how the proposed project will improve scientific knowledge, technical capability, and/or clinical practice in one or more broad fields.
+  - Describe how the concepts, methods, technologies, treatments, services, or preventative interventions that drive this field will be changed if the proposed aims are achieved.
+
+2. Approach
+  - Describe the overall strategy, methodology, and analyses to be used to accomplish the specific aims of the project. Unless addressed separately in the Resource Sharing Plan attachment, include how the data will be collected, analyzed, and interpreted as well as any resource sharing plans as appropriate.
+  - For trials that randomize groups or deliver interventions to groups, describe how your methods for analysis and sample size are appropriate for your plans for participant assignment and intervention delivery. These methods can include a group- or clusterrandomized trial or an individually randomized group-treatment trial. Additional information is available at the Research Methods Resources webpage.
+  - Discuss potential problems, alternative strategies, and benchmarks for success anticipated to achieve the aims.
+  - If the project is in the early stages of development, describe any strategy to establish feasibility, and address the management of any high risk aspects of the proposed work.
+  - Point out any procedures, situations, or materials that may be hazardous to personnel and the precautions to be exercised. If applicable, a full discussion on the use of select agents should appear in the Select Agent Research attachment below.
+  - If research on Human Embryonic Stem Cells (hESCs) is proposed, but an approved cell line from the NIH hESC Registry cannot be chosen, provide a strong justification for why an appropriate cell line cannot be chosen from the registry at this time.
+  - If you are proposing to gain clinical trial research experience (i.e., you will not be leading an independent clinical trial), briefly describe your role on the clinical trial.
+
+*Preliminary Studies for New Applications:*
+For new applications, include information on preliminary studies (including data collected by
+others in the lab), if any. Discuss the applicant's preliminary studies, data, and/or experience
+pertinent to this application.
+
+\clearpage
+***An example strategy is presented below. You should adjust the types of sections you use to create the most convincing proposal, but make sure you have a "Significance" and "Approach" section.***
+
+For instance, you may perhaps choose to put all of your preliminary data together into their own section, or you may create a shared methods section.
+
+# Significance
+*This is a required heading.* You can put limited background information here.
+Any background should highlight why your proposed research will significantly advance the field [@Watson1953-qk] <- *There is a reference here!*
+
+You should appear balanced in your survey of others work, but clearly indicate open questions or challenges.
+
+## Some important area of research
+
+You should divide your significance into clear, coherent sections.
+
+# Approach
+
+*This is a required heading.* You should open with an succinct overview of your specific approaches.
+
+## Aim 1: Figuring something out
+
+You can open with a rationale for this aim, or restate hypotheses.
+
+### Preliminary Results
+
+Describe work to date.
+
+### Methods
+
+Provide details about experimental or computational methods for future task.
+
+#### A great experiment
+
+Tell us about what you're going to do.
+
+#### Another great experiment
+
+Tell us about what you're going to do.
+
+#### A novel analytical approach
+
+Tell us about what you're going to do.
+
+### Outcomes and Interpretation
+
+What do you expect to gain from your experiments? How will you interpret your results? How will you judge success?
+
+### Potential Problems and Alternate Approaches
+
+What could possibly go wrong? How will you detect errors, and what modifications could mitigate them? What are other experiments that you can do to test your hypotheses?
+
+## Aim 2: Proving a point
+
+### Preliminary Results
+
+### Methods
+
+### Outcomes and Interpretation
+
+### Potential Problems and Alternate Approaches
+
+What could possibly go wrong?
+
+## Aim 3: Putting something into practice
+
+### Preliminary Results
+
+### Methods
+
+### Outcomes and Interpretation
+
+### Potential Problems and Alternate Approaches
+
+What could possibly go wrong?
+
+# Other headings
+
+You could create an summary section, or provide a graphic/flowchart with your project's timeline.
+
+You could provide information about your research team and potential collaborations which will make the project feasible.
+
+For the purposes of candidacy, you could describe coursework or other training that you'd like to obtain.
+Tie it back to your proposed rseearch.
+
+You can use this space for any other information you want to provide to your reviewers.
+
+
+\clearpage <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+```{=latex}
+{\Large\textbf{REFERENCES CITED}}
+```

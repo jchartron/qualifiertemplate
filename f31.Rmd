@@ -11,7 +11,6 @@ output:
       in_header: preamble.tex 
 fontsize: 11pt
 papersize: letter
-microtypeoptions: protrusion=true,expansion, final, tracking=true, kerning=true, spacing=true, factor=1100, stretch=10, shrink=10
 geometry: margin=0.5in, includeheadfoot, headsep=0in, headheight=0in, footskip=0.3in
 subparagraph: yes
 fontfamily: helvet
